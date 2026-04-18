@@ -1,39 +1,94 @@
-# Welcome to your Expo app 👋
+# Welcome to my first Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# wpk25-mobile-app
 
-## Get started
+A mobile app built with React Native and Expo, featuring a modern tab-based navigation and customizable UI components.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- Tab-based navigation
+- Customizable UI components (Button, ImageViewer, etc.)
+- File-based routing
+- Ready for Android, iOS, and web
 
-2. Start the app
+## How to create and run this project
 
-   ```bash
-   npx expo start
-   ```
+### 1. Create the project
 
-In the output, you'll find options to open the app in a
+To create this project from scratch, use the following command:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```bash
+npx create-expo-app@latest wpk25-mobile-app
+```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This will scaffold a new Expo app in the `wpk25-mobile-app` directory using the default template.
 
-## Get a fresh project
+After the command completes, navigate to the project folder and install dependencies (if not already done):
+cd wpk25-mobile-app
 
-When you're ready, run:
+```bash
+npm install
+```
+
+### 2. (Optional) Get a fresh blank app
+
+If you want to start with a blank app, run in one terminal:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+While this is running, you can start the development server in a separate terminal:
+
+```bash
+npx expo start
+```
+
+This allows you to reset the project and run the app at the same time.
+
+### 3. Create an Expo account (on your computer)
+
+1. Go to [Expo website](https://expo.dev/signup) and sign up for a free account, or log in if you already have one.
+2. You can also log in via the terminal:
+
+   ```bash
+   npx expo login
+   ```
+
+   Follow the instructions to enter your username and password.
+
+### 4. Install Expo Go on your phone
+
+- For Android: Open the Google Play Store and search for **Expo Go**. Install the app.
+- For iOS: Open the App Store and search for **Expo Go**. Install the app.
+
+### 5. Start the development server
+
+In the project folder, run:
+
+```bash
+npx expo start
+```
+
+This will open a new tab in your browser with a QR code.
+
+### 6. Open the app on your phone
+
+1. Make sure your phone and computer are connected to the same Wi-Fi network.
+2. Open the **Expo Go** app on your phone.
+3. Sign in with the same Expo account you used on your computer (if prompted).
+4. Tap "Scan QR Code" in Expo Go and scan the QR code from your computer screen.
+5. The app will load and run on your phone.
+
+> **Tip:** If you have issues scanning the QR code, you can also enter the development server URL manually in Expo Go.
+
+---
+
+## Recent additions
+
+- Project initialized with git and connected to GitHub
+- Added README.md with project description
+- Set up main branch and remote origin
 
 ## Learn more
 
