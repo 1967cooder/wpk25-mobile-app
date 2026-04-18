@@ -1,4 +1,5 @@
 ![Expo web demo screenshot](assets/images/localhost_8081_.png)
+
 # Welcome to my first Expo app 👋
 
 # wpk25-mobile-app
