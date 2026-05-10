@@ -99,47 +99,9 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
----
-
 ## Deploying your app
 
 You can deploy your Expo app either as a mobile app (for App Store/Google Play) or as a web/demo version. Here are the main options:
-
-### 1. Deploy to Expo servers (web/demo)
-
-**This option is free.**
-
-This is the easiest way to share your app for testing or demo purposes.
-
-**Steps:**
-
-1. Make sure you are logged in to your Expo account:
-
-   ```bash
-   npx expo login
-   ```
-
-2. Publish your project:
-
-   ```bash
-   npx expo publish
-   ```
-
-3. After publishing, you will get a link like:
-
-   https://expo.dev/@your-username/your-project-name
-
-   You can open this link in a browser or in the Expo Go app. To check your published projects, use:
-
-   ```bash
-   npx expo whoami
-   npx expo url:open --web
-   ```
-
-npm install -g eas-cli
-eas update
 
 ### 1. Deploy to Expo servers (web/demo)
 
